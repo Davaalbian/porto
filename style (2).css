@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.header{
+    width: 100%;
+    height: auto;
+    background-color: blue;
+    padding-bottom: 1rem;
+
+}
+.navbar-brand h4{
+    color: blueviolet;
+}
+.navbar-nav a{
+    font-weight: 600;
+    color: aqua;
+    transition: .2s ease-in-out;
+    margin-right: 2.5rem;
+}
+.navbar-nav a:hover{
+    color: brown;
+}
+.navbar-nav{
+    padding-right: 5rem;
+}
+.wrap_navbar{
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    background-color: blanchedalmond;
+
+    z-index: 99999;
+
+    border-bottom: 1px solid saddlebrown;
+}
+.navbar-brand{
+    padding-left: 3rem;
+}
+.pembungkus{
+    padding-top: 4rem;
+    display: flex;
+    align-items: center;
+}
+.nama h1{
+    columns: white;
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+.asal h3{
+    color: bisque;
+    padding-bottom: 1rem ;
+}
+.deskripsi p{
+    color: aliceblue;
+    font-weight: 300;
+    padding-bottom: 1.5rem;
+}
+.tombol a{
+    text-decoration: none;
+    color: blue;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid blue;
+    font-weight:  700;
+    transition: .2s ease-in-out;
+    border-radius: 20px;
+
+}
+
+.tombol a:hover {
+    background-color: aqua;
+    color: black;
+
+}
+.section{
+    padding-bottom: 3rem;
+}
+.tombol-sosmed a{
+    padding: 1rem 1.5rem;
+    color: aqua;
+    background-color: transparent;
+    border: 1px solid aqua;
+    border-radius: 50px;
+    margin-right: 1.5rem;
+    transition: .2s ease-in-out;
+    font-size: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.tombol-sosmed a:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.pembungkus-tombol{
+    display: flex;
+    align-items: center;
+}
